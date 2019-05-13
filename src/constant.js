@@ -1,0 +1,1 @@
+export const BUILD_URI = "http://localhost:3000";

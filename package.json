@@ -1,0 +1,47 @@
+{
+  "name": "product-details-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "jest": "^24.7.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "raf": "^3.3.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^2.2.2",
+    "react-responsive-carousel": "^3.1.49",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-jest": "^24.8.0"
+  }
+}
