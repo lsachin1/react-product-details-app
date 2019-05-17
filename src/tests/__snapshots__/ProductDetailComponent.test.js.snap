@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the productDetailComponent with given values 1`] = `
+<div
+  className="productDeatilContainer"
+>
+  <p>
+    <a
+      href="https://www.westelm.com/products/organic-watercolor-wavelines-duvet-cover-shams-b2674/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Organic Watercolor Wavelines Duvet Cover + Shams
+    </a>
+  </p>
+  <p>
+    <span>
+      <s>
+        $
+        19
+         - $
+        109
+      </s>
+    </span>
+    <span>
+       
+      Special
+       $
+      14
+       - $
+      81
+    </span>
+  </p>
+</div>
+`;

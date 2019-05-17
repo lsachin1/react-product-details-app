@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the Modal with thumbnail images 1`] = `
+<Modal
+  ariaHideApp={true}
+  bodyOpenClassName="ReactModal__Body--open"
+  closeTimeoutMS={0}
+  contentLabel="Selected Image"
+  isOpen={false}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnOverlayClick={true}
+  style={
+    Object {
+      "content": Object {
+        "bottom": "auto",
+        "left": "50%",
+        "marginRight": "-50%",
+        "right": "auto",
+        "top": "50%",
+        "transform": "translate(-50%, -50%)",
+      },
+    }
+  }
+>
+  <span
+    className="close"
+  >
+    X
+  </span>
+  <Carousel
+    autoPlay={false}
+    axis="horizontal"
+    centerMode={false}
+    centerSlidePercentage={80}
+    dynamicHeight={false}
+    emulateTouch={false}
+    infiniteLoop={false}
+    interval={3000}
+    onChange={[Function]}
+    onClickItem={[Function]}
+    onClickThumb={[Function]}
+    selectedItem={0}
+    showArrows={true}
+    showIndicators={true}
+    showStatus={true}
+    showThumbs={true}
+    statusFormatter={[Function]}
+    stopOnHover={true}
+    swipeScrollTolerance={5}
+    swipeable={true}
+    transitionTime={350}
+    useKeyboardArrows={false}
+    verticalSwipe="standard"
+    width="100%"
+  >
+    <div>
+      <img
+        alt=""
+        className="carouselImage"
+        height="363px"
+        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201914/0161/organic-watercolor-wavelines-duvet-cover-shams-3-m.jpg"
+        width="363px"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        className="carouselImage"
+        height="363px"
+        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-m.jpg"
+        width="363px"
+      />
+    </div>
+    <div>
+      <img
+        alt=""
+        className="carouselImage"
+        height="363px"
+        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-1-m.jpg"
+        width="363px"
+      />
+    </div>
+  </Carousel>
+</Modal>
+`;

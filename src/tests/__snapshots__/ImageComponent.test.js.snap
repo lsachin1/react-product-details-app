@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the imageComponent with given values 1`] = `
+<div
+  className="imageContainer"
+>
+  <a
+    href="javascript:void()"
+    onClick={[Function]}
+  >
+    <img
+      height="363px"
+      src="https://www.westelm.com/weimgs/rk/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-2-m.jpg"
+      width="363px"
+    />
+  </a>
+  <OpenModal
+    handleClearModalOpened={[Function]}
+    isModalOpened={false}
+    selectedThumbail={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201914/0161/organic-watercolor-wavelines-duvet-cover-shams-3-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-1-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+  />
+</div>
+`;

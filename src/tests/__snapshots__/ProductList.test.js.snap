@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render no data if there is no product data 1`] = `
+<div>
+  No data
+</div>
+`;
+
+exports[`render the product List with given values 1`] = `
+<div>
+  <div
+    className="productContainer"
+  >
+    <ProductListItem
+      hero={
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-2-m.jpg",
+          "meta": "",
+          "rel": "hero",
+          "size": "m",
+          "width": 363,
+        }
+      }
+      id="organic-watercolor-wavelines-duvet-cover-shams-b2674"
+      images={
+        Array [
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201914/0161/organic-watercolor-wavelines-duvet-cover-shams-3-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201916/0026/organic-watercolor-wavelines-duvet-cover-shams-1-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+        ]
+      }
+      ind={0}
+      links={
+        Object {
+          "www": "https://www.westelm.com/products/organic-watercolor-wavelines-duvet-cover-shams-b2674/",
+        }
+      }
+      name="Organic Watercolor Wavelines Duvet Cover + Shams"
+      priceRange={
+        Object {
+          "regular": Object {
+            "high": 109,
+            "low": 19,
+          },
+          "selling": Object {
+            "high": 81,
+            "low": 14,
+          },
+          "type": "special",
+        }
+      }
+    />
+  </div>
+</div>
+`;
