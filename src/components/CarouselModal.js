@@ -1,6 +1,5 @@
 import React from 'react';
 import Modal from 'react-modal'
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -19,13 +18,11 @@ export const OpenModal = (props) => {
 	};
 
 	carouselArr = props.selectedThumbail.map((image, index) => {
-
-			return (
-				<div key={index}>
-					<img src={image.href} className="carouselImage" width={image.width+"px"} height={image.height+"px"}/>
-					<p className="legend">Legend {index+1}</p>
-				</div>
-			)
+		return (
+			<div key={index}>
+				<img src={image.href} className="carouselImage" width={image.width+"px"} height={image.height+"px"} alt={image.alt}/>
+			</div>
+		)
 	});
 
 	return (

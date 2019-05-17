@@ -1,7 +1,5 @@
 import React from 'react';
 import { ProductList } from './components/ProductList';
-import logo from './logo.svg';
-import * as Constants from './constant';
 import './App.css';
 
 
@@ -15,8 +13,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount(){
-      console.log();
-      fetch(Constants["BUILD_URI"]+"/products_data/index.json")
+      fetch("/products_data/index.json")
       .then(response => response.json())
       .then(
           data => this.setState(()=>{
@@ -29,7 +26,7 @@ export default class App extends React.Component {
 
   render(){
     return (
-        <div>
+        <div className="productMainContainer">
           <ProductList data={this.state.data} />
         </div>
     )
