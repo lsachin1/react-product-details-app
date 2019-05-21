@@ -38,7 +38,6 @@
 
 .productContainer {
   display: flex;
-  border:solid 0px red;
   justify-content: space-around;
 }
 
@@ -89,7 +88,7 @@
 }
 
 @media only screen 
-and (max-device-width : 768px) {
+and (max-width : 768px) {
     .productContainer {
       flex-direction: column;
     }
@@ -99,7 +98,7 @@ and (max-device-width : 768px) {
 }
 
 @media only screen 
-and  (max-device-width : 375px) {
+and  (max-width : 375px) {
   .productIteamInner .imageContainer img{
       width: 270px;
       height: 270px;
@@ -114,7 +113,7 @@ and  (max-device-width : 375px) {
 }
 
 @media only screen 
-and  (max-device-width : 812px) {
+and  (max-width : 812px) {
 
   .productContainer {
     flex-direction: column;
@@ -126,7 +125,7 @@ and  (max-device-width : 812px) {
 }
 
 @media only screen 
-and  (max-device-width : 1024px) {
+and  (max-width : 1024px) {
 
   .productContainer {
     flex-direction: column;
